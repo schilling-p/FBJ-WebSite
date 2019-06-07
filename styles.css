@@ -66,8 +66,14 @@ html, body {
     font-size: 2.75em;
 }
 
-.nav a:hover {
-    background-color: rgba(255, 255, 255, 0.301);
+.main-nav a:hover {
+    background-color: rgba(90, 72, 72, 0.4);
+    border-radius: .3em;
+}
+
+.footer-nav a:hover {
+    background-color: #444;
+    border-radius: .6em;
 }
 
 .band-name {
@@ -134,6 +140,7 @@ html, body {
 .release-item /*TODO: Find a better name than "item"*/ {
     display: inline-block;
     padding-right: .5em;
+    font-size: 1.3em;
 }
 
 .release-name {
@@ -147,11 +154,11 @@ html, body {
 }
 
 .release-date {
-    width: 40%;
+    width: 30%;
 }
 
 .release-btn {
-    max-width: 19%;
+    max-width: 29%;
 }
 
 .main-footer {
@@ -178,4 +185,19 @@ html, body {
     width: 40px;
     height: 40px;
     border-radius: .5em;
+}
+
+.btn-index-link { /*TODO: Conny has to say how the buttons exactly have to look*/
+    cursor: pointer;
+    text-align: center;
+    padding: .4em;
+    background-color:#555;
+    color: white;
+    border: none;
+    border-radius: .4em;
+    font-size: 1.05em;
+}
+
+.btn-index-link:hover {
+    background-color: #333;
 }
