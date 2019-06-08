@@ -59,7 +59,7 @@ html, body {
 }
 
 .section-header {
-    font-family: 'Unica One', cursive; /*TODO: find a new nice font*/
+    font-family: 'Unica One', cursive;
     font-weight: normal;
     color: #555;
     text-align: center;
@@ -91,6 +91,8 @@ html, body {
 
 .header-addition {
     font-size: 2em;
+    text-align: center;
+    margin-right: 14em;
 }
 
 .box {
@@ -200,4 +202,29 @@ html, body {
 
 .btn-index-link:hover {
     background-color: #333;
+}
+
+.contact-header {
+    font-family: 'Unica One', cursive;
+    font-weight: normal;
+    color: #555;
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact-row {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    margin-top: 5em;
+}
+
+.contact-row-item {
+    width: 33%;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+.about-text {
+    font-size: 1.25em;
+    text-align: justify;
 }
