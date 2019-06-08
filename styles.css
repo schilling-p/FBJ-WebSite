@@ -43,7 +43,6 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    /* border-bottom: 1px solid rgba(12, 11, 11, 0.3) */
 }
 
 .main-nav li {
@@ -228,3 +227,19 @@ html, body {
     font-size: 1.25em;
     text-align: justify;
 }
+
+.body {
+    background-image: url(images/tracks_background_nature.png);
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: top;
+}
+
+.tracks-header {
+    font-family: 'Unica One', cursive;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-size: 2.75em;
+}
+
