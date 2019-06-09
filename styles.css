@@ -207,7 +207,7 @@ html, body {
     font-family: 'Unica One', cursive;
     font-weight: normal;
     color: #555;
-    text-align: center;
+    text-align: left;
     font-size: 2em;
 }
 
@@ -226,6 +226,13 @@ html, body {
 .about-text {
     font-size: 1.25em;
     text-align: right;
+    padding: .5em;
+}
+
+.about-text-bottom {
+    font-size: 1.25em;
+    text-align: left;
+    padding: .5em;
 }
 
 .body {
@@ -248,8 +255,11 @@ html, body {
     width: auto;
     transform: rotate(90deg);
     float: left;
-    margin: 5px;
-    margin-top: 2em;
+    margin: .5em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
     border-radius: .5em;
 }
 
