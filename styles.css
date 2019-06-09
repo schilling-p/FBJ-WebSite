@@ -123,7 +123,7 @@ html, body {
 }
 
 .upcoming-release-row {
-    border-bottom: 1px solid rgb(128, 128, 128); /*TODO: Ask conny what he prefers*/
+    border-bottom: 1px solid rgb(128, 128, 128);
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
@@ -188,7 +188,7 @@ html, body {
     border-radius: .5em;
 }
 
-.btn-index-link { /*TODO: Conny has to say how the buttons exactly have to look*/
+.btn-index-link {
     cursor: pointer;
     text-align: center;
     padding: .4em;
