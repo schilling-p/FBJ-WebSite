@@ -7,7 +7,7 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Unica One', cursive;
     src:url("Fonts/ShadowsIntoLight.ttf") format("Headline"),
-        url("Fonts/Oswald[wght].ttf") format("BodyText"),
+        url("Fonts/Oswald_wght.ttf") format("BodyText"),
         url("Fonts/UnicaOne-Regular.ttf") format("section-header");
     font-weight: normal;
     font-style: normal;
